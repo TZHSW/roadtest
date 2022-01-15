@@ -57,12 +57,13 @@ data_loader = torch.utils.data.DataLoader(
     batch_size=20,
     shuffle=True)
 
-for i, mask in enumerate(data_loader):
-    print("第{}个batch，{}".format(i, mask))
+
+
 
 """
 
 
-
+for i, mask in enumerate(data_loader):
+    print("第{}个batch，{}".format(i, mask))
 dataset[0]
 """
