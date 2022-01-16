@@ -74,6 +74,6 @@ class UP(nn.Module):
         x1 = self.conv(x1)  # x1接受上采样的数据
         diffY = x2.size()[2] - x1.size()[2]
         diffX = x2.size()[3] - x1.size()[3]  # 跳步连接需要调整一下尺寸
-        F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])  # 尽可能均匀的将两侧填充
-        x = torch.cat([x1, x2], dim=1)  # 按channels相加
+        x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])  # 尽可能均匀的将两侧填充
+        x = torch.cat([x2, x1], dim=1)  # 按channels相加
         return self.conv(x)

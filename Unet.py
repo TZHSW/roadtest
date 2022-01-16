@@ -34,6 +34,7 @@ class UnetModel(nn.Module):
 
         return x
 
+
 if __name__ == '__main__':
     net = UnetModel(inchannel=3, outchannel=3)
     print(net)
