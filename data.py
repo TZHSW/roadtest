@@ -15,17 +15,25 @@ train_transform = transform.Compose([
 
 def default_loader(id, root):
     img = cv2.imread(os.path.join(root, '{}_sat.png'.format(id)))
-    mask = cv2.imread(os.path.join(root, '{}_mask.png'.format(id)))
+    mask = cv2.imread(os.path.join(root, '{}_mask.png'.format(id)),cv2.IMREAD_GRAYSCALE)
     # print(img.shape)
     # mask = cv2.imread(os.path.join(root+'{}_field_mask.png').format(id), cv2.IMREAD_GRAYSCALE)
     # print(mask.shape)
     # mask = cv2.imread(os.path.join(root, '{}_mask.png').format(id))
     # img = np.array(img)
     # mask = np.array(mask,np.float32)
-    mask = cv2.cvtColor(mask,cv2.COLOR_BGR2GRAY)
+    #img = train_transform(img)
+    #mask = train_transform(mask)
+    mask = torch.tensor(mask)
+    img = torch.tensor(img)
+    #mask增加channel
+    mask = torch.unsqueeze(mask,dim=2)
 
-    img = train_transform(img)
-    mask = train_transform(mask)
+    img = torch.permute(img,(2,0,1))/255.0*3.2-1.6
+    mask = torch.permute(mask, (2, 0, 1))/255.0
+
+
+
     mask[mask>0.5]=1
     mask[mask<0.5]=0
     return img, mask
@@ -61,11 +69,17 @@ if __name__ == '__main__':
 
     data_loader = torch.utils.data.DataLoader(
         dataset,
-        batch_size=20,
+        batch_size=1,
         shuffle=True)
     for img,mask in data_loader:
         print(img.shape)
         print(mask.shape)
+        mask = mask*255.0
+        mask= mask.squeeze(dim=0)
+        mask= mask.permute((1,2,0)).numpy()
+
+        cv2.imshow("mask",mask)
+        cv2.waitKey()
 """
 
 
