@@ -16,7 +16,7 @@ from tqdm.notebook import tqdm
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 config = dict(
-    epochs=10,
+    epochs=40,
     batch_size = 4,
     learning_rate = 0.00001,
 

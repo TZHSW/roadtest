@@ -35,8 +35,8 @@ if __name__ == '__main__':
         pred = net(img)
         pred = np.array(pred.data.cpu()[0])[0]
 
-        pred[pred<=-0.05]=0
-        pred[pred>-0.05]=255
+        pred[pred<=0.5]=0
+        pred[pred>0.5]=255
 
         save_path = str(iter)+'.png'
         cv2.imwrite(save_path, pred)

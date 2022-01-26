@@ -4,11 +4,78 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4022c3fc-eddd-4349-9236-60b41831fe26" name="更改" comment="1.16">
+    <list default="true" id="4022c3fc-eddd-4349-9236-60b41831fe26" name="更改" comment="1.25">
+      <change afterPath="$PROJECT_DIR$/datanew/test/10228705_15_2_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10228720_15_0_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10228720_15_0_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10228720_15_0_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10228720_15_1_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10228735_15_1_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10228735_15_1_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10228735_15_1_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10378675_15_1_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10378675_15_1_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10378675_15_1_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10378675_15_2_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10378690_15_0_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10378690_15_0_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10378690_15_1_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/test/10378690_15_1_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_0_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_1_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_2_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_0_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_1_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_2_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_0_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_1_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_2_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_0_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_1_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_2_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_0_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_1_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_2_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_0_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_1_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_2_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_0_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_1_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_2_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_0_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_0_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_1_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_1_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_2_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_2_sat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newtry/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newtry/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newtry/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newtry/unet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newtry/unet_parts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preidt.py" beforeDir="false" afterPath="$PROJECT_DIR$/preidt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trainunet.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainunet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,58 +104,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/datanew/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\dachuang\roadtest\datanew\test" />
+      <recent name="C:\Users\ASUS\Desktop\dachuang\roadtest\datanew\train" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\dachuang\roadtest" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.preidt">
-    <configuration name="Unet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="roadtest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unet_part" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="roadtest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unet_part.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="roadtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="roadtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,14 +151,36 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newtry" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newtry/data.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="roadtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newtry" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newtry/predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -137,9 +191,6 @@
       <module name="roadtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -155,13 +206,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trainunet (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="roadtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newtry" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newtry/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trainunet (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="roadtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -170,7 +240,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainunet.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -203,9 +273,9 @@
       <list>
         <item itemvalue="Python.preidt" />
         <item itemvalue="Python.trainunet (1)" />
-        <item itemvalue="Python.data" />
-        <item itemvalue="Python.Unet" />
-        <item itemvalue="Python.Unet_part" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.data (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +306,16 @@
       <workItem from="1643097442117" duration="6153000" />
       <workItem from="1643106891242" duration="405000" />
       <workItem from="1643107310445" duration="2833000" />
+      <workItem from="1643113052805" duration="4014000" />
+      <workItem from="1643127212201" duration="916000" />
+      <workItem from="1643128147268" duration="324000" />
+      <workItem from="1643128485008" duration="537000" />
+      <workItem from="1643129049812" duration="35000" />
+      <workItem from="1643129100453" duration="32000" />
+      <workItem from="1643129142602" duration="384000" />
+      <workItem from="1643129540668" duration="228000" />
+      <workItem from="1643129781301" duration="525000" />
+      <workItem from="1643130324423" duration="1518000" />
     </task>
     <task id="LOCAL-00001" summary="1.15">
       <created>1642237307532</created>
@@ -258,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642339700545</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.25">
+      <created>1643113272411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643113272411</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,17 +366,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.15" />
     <MESSAGE value="1.16" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.16" />
+    <MESSAGE value="1.25" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preidt.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -314,5 +395,6 @@
     <SUITE FILE_PATH="coverage/net_py$trainunet__1_.coverage" NAME="trainunet (1) 覆盖结果" MODIFIED="1642325613345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Unet_py$trainunet__1_.coverage" NAME="trainunet (1) 覆盖结果" MODIFIED="1643097289467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Unet_py$preidt.coverage" NAME="preidt 覆盖结果" MODIFIED="1643042214393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trainunet_py$data__1_.coverage" NAME="data (1) 覆盖结果" MODIFIED="1643128329696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newtry" />
   </component>
 </project>
