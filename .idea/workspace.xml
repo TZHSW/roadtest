@@ -5,78 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4022c3fc-eddd-4349-9236-60b41831fe26" name="更改" comment="1.25">
-      <change afterPath="$PROJECT_DIR$/datanew/test/10228705_15_2_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10228720_15_0_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10228720_15_0_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10228720_15_0_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10228720_15_1_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10228735_15_1_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10228735_15_1_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10228735_15_1_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10378675_15_1_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10378675_15_1_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10378675_15_1_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10378675_15_2_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10378690_15_0_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10378690_15_0_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10378690_15_1_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/test/10378690_15_1_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_0_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_1_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_2_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_0_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_0_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_1_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_2_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_1_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_0_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_1_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_2_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078675_15_2_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_0_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_1_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_2_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_0_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_0_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_1_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_2_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_1_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_0_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_1_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_2_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10078690_15_2_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_0_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_1_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_2_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_0_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_0_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_0_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_1_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_1_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_2_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datanew/train/10228675_15_1_2_sat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newtry/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newtry/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newtry/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newtry/unet_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newtry/unet_parts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/roadtest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/roadtest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_1_16_10_15____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2022_1_16_10_15____.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preidt.py" beforeDir="false" afterPath="$PROJECT_DIR$/preidt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainunet.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainunet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traj_process/traj.html" beforeDir="false" afterPath="$PROJECT_DIR$/traj_process/traj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traj_process/traj_cluster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/traj_process/transbigdata-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/traj_process/transbigdata-test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/datanew/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -120,7 +57,7 @@
       <recent name="C:\Users\ASUS\Desktop\dachuang\roadtest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.preidt">
+  <component name="RunManager" selected="Python.transbigdata-test">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="roadtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,28 +72,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="roadtest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newtry" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newtry/data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,6 +106,9 @@
       <module name="roadtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -232,6 +150,9 @@
       <module name="roadtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -269,13 +190,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="transbigdata-test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="roadtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/traj_process" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/traj_process/transbigdata-test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.transbigdata-test" />
         <item itemvalue="Python.preidt" />
         <item itemvalue="Python.trainunet (1)" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.predict" />
-        <item itemvalue="Python.data (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -316,6 +256,7 @@
       <workItem from="1643129540668" duration="228000" />
       <workItem from="1643129781301" duration="525000" />
       <workItem from="1643130324423" duration="1518000" />
+      <workItem from="1676648836063" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="1.15">
       <created>1642237307532</created>
@@ -386,15 +327,15 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Unet_py$data.coverage" NAME="data 覆盖结果" MODIFIED="1643039552386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/trainunet_py$preidt.coverage" NAME="preidt 覆盖结果" MODIFIED="1643112931667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/net_py$Unet.coverage" NAME="Unet 覆盖结果" MODIFIED="1642310865950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/trainunet_py$data.coverage" NAME="data 覆盖结果" MODIFIED="1643108298035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/net_py$Unet_part.coverage" NAME="Unet_part 覆盖结果" MODIFIED="1642298594328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Unet_py$data.coverage" NAME="data 覆盖结果" MODIFIED="1643039552386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/trainunet_py$trainunet__1_.coverage" NAME="trainunet (1) 覆盖结果" MODIFIED="1643108756539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/net_py$trainunet__1_.coverage" NAME="trainunet (1) 覆盖结果" MODIFIED="1642325613345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Unet_py$trainunet__1_.coverage" NAME="trainunet (1) 覆盖结果" MODIFIED="1643097289467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Unet_py$preidt.coverage" NAME="preidt 覆盖结果" MODIFIED="1643042214393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/net_py$trainunet__1_.coverage" NAME="trainunet (1) 覆盖结果" MODIFIED="1642325613345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/net_py$Unet_part.coverage" NAME="Unet_part 覆盖结果" MODIFIED="1642298594328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trainunet_py$trainunet__1_.coverage" NAME="trainunet (1) 覆盖结果" MODIFIED="1643108756539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/trainunet_py$data__1_.coverage" NAME="data (1) 覆盖结果" MODIFIED="1643128329696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newtry" />
+    <SUITE FILE_PATH="coverage/trainunet_py$data.coverage" NAME="data 覆盖结果" MODIFIED="1643108298035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Unet_py$preidt.coverage" NAME="preidt 覆盖结果" MODIFIED="1643042214393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

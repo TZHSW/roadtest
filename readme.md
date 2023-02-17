@@ -50,8 +50,10 @@
 3. 轨迹数据处理：
     - 轨迹数据处理：将对应轨迹数据转换为图像数据，以便于神经网络进行处理。同时进行初步聚类展示在Web上，方便观察与调试。
     ![traj-vl-web](https://raw.githubusercontent.com/Andytonglove/roadtest/master/traj_process/traj-vl-web.png)
-    →
+    → 进行DBSCAN聚类后
     ![traj-vl-web-color](https://raw.githubusercontent.com/Andytonglove/roadtest/master/traj_process/traj-vl-web-color.png)
+    → 叠加TIFF影像显示
+    ![traj-vl-web-tif](https://raw.githubusercontent.com/Andytonglove/roadtest/master/traj_process/traj-vl-web-tif.png)
 
     - 使用库：
         - [transbigdata](https://github.com/ni1o1/transbigdata) + geopandas
