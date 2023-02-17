@@ -12,7 +12,8 @@ cnt = 30000 # 0-31232
 for i in range(30000, 31233):
     # 读取文件
     try:
-        fd = open(r"traj_YBDE_rep\\trip_"+str(i)+".txt",'r')
+        # 见轨迹数据traj_YBDE_rep\trip_xxx.txt
+        fd = open(r"traj_process\\traj_YBDE_rep\\trip_"+str(i)+".txt",'r')
 
         # 遍历文件中的每一行
         for line in fd:
