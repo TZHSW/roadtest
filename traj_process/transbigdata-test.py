@@ -1,3 +1,4 @@
+from random import randint
 import numpy as np
 import pandas as pd
 import geopandas as gpd
@@ -107,30 +108,62 @@ plt.hist(df_all['altitude-int'], bins=100)
 m_cluster = folium.Map(location=[df_all['latitude'].mean(), df_all['longitude'].mean()], zoom_start=20)
 
 # 1. 生成聚类模型
-from sklearn.cluster import KMeans
+# from sklearn.cluster import KMeans
 
-cluster_num = 3 # 预训练聚类数量
-colors=['red', 'yellow', 'green'] #['#00ae53', '#86dc76', '#daf8aa', '#ffe6a4', '#ff9a61', '#ee0028']
+# cluster_num = 3 # 预训练聚类数量
+# colors=['red', 'yellow', 'green'] #['#00ae53', '#86dc76', '#daf8aa', '#ffe6a4', '#ff9a61', '#ee0028']
 
-kmeans = KMeans(n_clusters=cluster_num, random_state=0).fit(hist.reshape(-1, 1))
+# kmeans = KMeans(n_clusters=cluster_num, random_state=0).fit(hist.reshape(-1, 1))
+
+# 聚类阈值存入列表
+# cluster_threshold = []
+# for i in range(0, len(kmeans.cluster_centers_)):
+#     cluster_threshold.append(kmeans.cluster_centers_[i][0])
+# cluster_threshold.sort()
+# print(cluster_threshold)
+
+# 2. 生成聚类结果
+# cluster_result = kmeans.predict(hist.reshape(-1, 1))
+
+# 按照聚类阈值，生成颜色映射color_map_cluster
+# import branca.colormap as cm
+# color_map_cluster = cm.StepColormap(colors, vmin=df_all['altitude'].min(), vmax=df_all['altitude'].max(), index=cluster_threshold)
+# color_map_cluster.add_to(m_cluster)
+
+# 引入DBSCAN聚类算法
+from sklearn.cluster import DBSCAN
+
+# 参数意义：eps：两个样本被看作邻居的最大距离；min_samples：一个样本被看作核心样本所需要的最小邻居数目
+dbscan = DBSCAN(eps=0.5, min_samples=5).fit(hist.reshape(-1, 1))
+
 # 聚类阈值存入列表
 cluster_threshold = []
-for i in range(0, len(kmeans.cluster_centers_)):
-    cluster_threshold.append(kmeans.cluster_centers_[i][0])
+for i in range(0, len(dbscan.core_sample_indices_)):
+    cluster_threshold.append(hist[dbscan.core_sample_indices_[i]])
 cluster_threshold.sort()
 print(cluster_threshold)
 
-# 2. 生成聚类结果
-cluster_result = kmeans.predict(hist.reshape(-1, 1))
+# 生成聚类结果
+cluster_result = dbscan.labels_
+
+# 获取聚类数量
+cluster_num = len(set(cluster_result)) - (1 if -1 in cluster_result else 0)
+
 # 3. 生成聚类结果的直方图
 plt.hist(cluster_result, bins=cluster_num)
+# plt展示hist直方图
+plt.show()
 
+# 按照聚类数量生成对应的颜色列表
+colors = []
+for i in range(0, cluster_num):
+    # 生成随机颜色
+    colors.append('#%06X' % randint(0, 0xFFFFFF))
 
-# 按照聚类阈值，生成颜色映射color_map_cluster
-import branca.colormap as cm
-color_map_cluster = cm.StepColormap(colors, vmin=df_all['altitude'].min(), vmax=df_all['altitude'].max(), index=cluster_threshold)
+# 生成
+color_map_cluster = folium.LinearColormap(colors, vmin=df_all['altitude'].min(), vmax=df_all['altitude'].max())
+
 color_map_cluster.add_to(m_cluster)
-
 
 # 每个分组都绘制一条轨迹（按照聚类映射）
 

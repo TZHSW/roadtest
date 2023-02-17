@@ -48,12 +48,15 @@
 
 
 3. 轨迹数据处理：
-    - 轨迹数据处理：将对应轨迹数据转换为图像数据，以便于神经网络进行处理。同时展示在Web上，方便观察与调试。
+    - 轨迹数据处理：将对应轨迹数据转换为图像数据，以便于神经网络进行处理。同时进行初步聚类展示在Web上，方便观察与调试。
     ![traj-vl-web](https://raw.githubusercontent.com/Andytonglove/roadtest/master/traj_process/traj-vl-web.png)
+    →
+    ![traj-vl-web-color](https://raw.githubusercontent.com/Andytonglove/roadtest/master/traj_process/traj-vl-web-color.png)
 
     - 使用库：
         - [transbigdata](https://github.com/ni1o1/transbigdata) + geopandas
         - [folium](https://github.com/python-visualization/folium)
+        - [KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
 
 
 4. 遥感影像处理：
