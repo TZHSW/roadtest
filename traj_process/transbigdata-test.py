@@ -1,7 +1,10 @@
+import numpy as np
 import pandas as pd
 import geopandas as gpd
 import transbigdata as tbd
 # tbd或geopandas使用报错，请按顺序去pythonlib源使用whl重装fiona、gdal、pyproj、numpy+MKL、scipy等
+import matplotlib.pyplot as plt
+import folium
 
 # 轨迹数据格式：
 # 0,4739e016-5a88-4dd6-8dee-cf8dd5760d32,1640168896000,114.0719871043955,22.614763418999843,118.10820573921076,203.17534,2.2807097,0
@@ -46,7 +49,6 @@ for i in range(30000, 31233):
     cnt += 1
 
 
-# TODO
 print(df_all.head())
 print(df_all.__len__())
 
@@ -63,16 +65,79 @@ points = df_all[['latitude', 'longitude']].values.tolist() # 注意经纬度顺�
 m = folium.Map(location=[df_all['latitude'].mean(), df_all['longitude'].mean()], zoom_start=20)
 # folium.PolyLine(points, color="red", weight=1.5, opacity=0.8).add_to(m)
 
+# 查看对应各高度出现的次数，作为后续的颜色映射，这里对高度只取整数
+df_all['altitude-int'] = df_all['altitude'].astype(int)
+print(df_all['altitude-int'].value_counts())
+
+# 根据直方图的数据，生成颜色映射，映射规则按照高度从低到高分别映射到红、黄、绿三种颜色
+color_map = folium.LinearColormap(['red', 'yellow', 'green'], vmin=df_all['altitude'].min(), vmax=df_all['altitude'].max())
+# 根据颜色映射，给每条轨迹添加颜色
+color_map.add_to(m)
+
 # 把df_all中的数据按照tripID分组
 grouped = df_all.groupby('tripID')
 
-# 每个分组都绘制一条轨迹
+# 每个分组都绘制一条轨迹（按照原始映射）
 for name, group in grouped:
     points = group[['latitude', 'longitude']].values.tolist()
-    folium.PolyLine(points, color="red", weight=1.5, opacity=0.8).add_to(m)
+    # 为每条轨迹添加颜色，添加规则是轨迹的平均高度对应上面颜色表中的颜色
+    colordif = color_map(group['altitude'].mean())
+    folium.PolyLine(points, color=colordif, weight=1.5, opacity=0.6).add_to(m)
 
 
 # 保存地图
 m.save('traj_process\\traj.html')
 
 print('save traj map end')
+
+
+# //////////////////////////////////////////////////////////////////////
+
+
+# TODO 这里可以考虑按算法进行高度频率区分，从而计算出立交桥层次关系。
+# 自适应阈值分割？自动多阈值分割算法？聚类分析？3
+
+# 生成直方图
+hist, bin_edges = np.histogram(df_all['altitude-int'], bins=100)
+# 可视化直方图查看分布情况
+plt.hist(df_all['altitude-int'], bins=100)
+
+# 对生成的直方图进行聚类分析，这里使用KMeans：
+
+m_cluster = folium.Map(location=[df_all['latitude'].mean(), df_all['longitude'].mean()], zoom_start=20)
+
+# 1. 生成聚类模型
+from sklearn.cluster import KMeans
+
+cluster_num = 3 # 预训练聚类数量
+colors=['red', 'yellow', 'green'] #['#00ae53', '#86dc76', '#daf8aa', '#ffe6a4', '#ff9a61', '#ee0028']
+
+kmeans = KMeans(n_clusters=cluster_num, random_state=0).fit(hist.reshape(-1, 1))
+# 聚类阈值存入列表
+cluster_threshold = []
+for i in range(0, len(kmeans.cluster_centers_)):
+    cluster_threshold.append(kmeans.cluster_centers_[i][0])
+cluster_threshold.sort()
+print(cluster_threshold)
+
+# 2. 生成聚类结果
+cluster_result = kmeans.predict(hist.reshape(-1, 1))
+# 3. 生成聚类结果的直方图
+plt.hist(cluster_result, bins=cluster_num)
+
+
+# 按照聚类阈值，生成颜色映射color_map_cluster
+import branca.colormap as cm
+color_map_cluster = cm.StepColormap(colors, vmin=df_all['altitude'].min(), vmax=df_all['altitude'].max(), index=cluster_threshold)
+color_map_cluster.add_to(m_cluster)
+
+
+# 每个分组都绘制一条轨迹（按照聚类映射）
+
+for name, group in grouped:
+    points = group[['latitude', 'longitude']].values.tolist()
+    # 为每条轨迹添加颜色，添加规则是轨迹的平均高度对应上面颜色表中的颜色
+    colordif = color_map_cluster(group['altitude'].mean())
+    folium.PolyLine(points, color=colordif, weight=1.5, opacity=0.6).add_to(m_cluster)
+
+m_cluster.save('traj_process\\traj_cluster.html')
