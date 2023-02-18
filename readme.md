@@ -17,7 +17,17 @@
 
 本项目所使用的数据源主要包括遥感影像与车辆轨迹数据，其中遥感影像数据来源于华为提供，车辆轨迹数据同样来源于华为提供的对应的的轨迹数据服务。
 
-此处略。
+此处略。组织方式如下：
+``` bash
+    ├── data_name
+    │   ├── line
+    │   │   ├── line_data……
+    │   ├── polygon
+    │   │   ├── polygon_data……
+    │   ├── raster
+    │   │   ├── data.tfw
+    │   │   ├── data.tif
+```
 
 
 ### 项目计划
@@ -48,10 +58,12 @@
 
 
 3. 轨迹数据处理：
-    - 轨迹数据处理：将对应轨迹数据转换为图像数据，以便于神经网络进行处理。同时进行初步聚类展示在Web上，方便观察与调试。
+    - 轨迹数据处理：借助folium将对应轨迹数据转换为图像数据，以便于神经网络进行处理。同时进行初步聚类展示在Web上，方便观察与调试。
     ![traj-vl-web](https://raw.githubusercontent.com/Andytonglove/roadtest/master/traj_process/traj-vl-web.png)
-    →
+    → 进行DBSCAN聚类后
     ![traj-vl-web-color](https://raw.githubusercontent.com/Andytonglove/roadtest/master/traj_process/traj-vl-web-color.png)
+    → 叠加TIFF影像显示
+    ![traj-vl-web-tif](https://raw.githubusercontent.com/Andytonglove/roadtest/master/traj_process/traj-vl-web-tif.png)
 
     - 使用库：
         - [transbigdata](https://github.com/ni1o1/transbigdata) + geopandas
@@ -62,7 +74,8 @@
 4. 遥感影像处理：
     - 遥感影像处理：对于神经网络提取路网信息的研究，遥感影像数据的处理与预处理是非常重要的一环，这里采用ArcGIS与原始数据对照进行初步shp与其他格式处理。
 
-    - ……
+    - 进行标注：使用ArcGIS进行标注，将标注的shp文件转换为tif文件，以便于神经网络进行处理。
+        > 1、首先构建道路边线标注，标注立交桥涉及的主要道路，使用双线标注（包括匝道）；2、建立拓扑文件，选择边线要素没有悬挂点的规则，验证拓扑消除悬挂点；3、使用要素转面工具；4、使用编辑工具栏中的联合工具来合并面，主要区分道路的主次和行驶方向，保留完整的路面；5、为面要素集添加新字段type，为每条道路填写type；6、使用面转栅格工具，将值字段设为type，像元大小调整为底图的像元大小；7、为nodata部分赋值为0；8、导出栅格影像；
 
 
 5. 发展展望：

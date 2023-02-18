@@ -3,13 +3,17 @@ import numpy as np
 import pandas as pd
 import geopandas as gpd
 import transbigdata as tbd
-# tbd或geopandas使用报错，请按顺序去pythonlib源使用whl重装fiona、gdal、pyproj、numpy+MKL、scipy等
+# tbd或geopandas使用报错，请按顺序去pythonlib源使用whl重装fiona、gdal、pyproj、numpy+MKL、scipy等；使用pycharm
+# 在系统设置中添加该虚拟环境的环境3项变量 + 使用cmd作为终端而非windows powershell等
 import matplotlib.pyplot as plt
 import folium
+import cv2
 
 # 轨迹数据格式：
 # 0,4739e016-5a88-4dd6-8dee-cf8dd5760d32,1640168896000,114.0719871043955,22.614763418999843,118.10820573921076,203.17534,2.2807097,0
 # 'pid', 'tripID', 'time', 'longitude', 'latitude', 'altitude', 'bearing', 'horizontalAccM', 'activityIdType'
+
+# 注意vscode和pycharm相对路径不同，vscode默认是相对于当前文件夹，pycharm是相对于项目根目录：traj_process\\，可修改设置
 
 # 读取CSV文件
 cnt = 30000
@@ -24,7 +28,7 @@ for i in range(30000, 31233):
     # 读取文件
     try:
         # 见轨迹数据traj_YBDE_rep\trip_xxx.txt
-        df = pd.read_csv('traj_process\\traj_YBDE_rep\\trip_' + str(i) +'.txt', header=None)
+        df = pd.read_csv('traj_YBDE_rep\\trip_' + str(i) +'.txt', header=None)
 
         # 为DataFrame添加列名
         df.columns = ['pid', 'tripID', 'time', 'longitude', 'latitude', 'altitude', 'bearing', 'horizontalAccM', 'activityIdType']
@@ -87,7 +91,7 @@ for name, group in grouped:
 
 
 # 保存地图
-m.save('traj_process\\traj.html')
+m.save('traj.html')
 
 print('save traj map end')
 
@@ -106,6 +110,13 @@ plt.hist(df_all['altitude-int'], bins=100)
 # 对生成的直方图进行聚类分析，这里使用KMeans：
 
 m_cluster = folium.Map(location=[df_all['latitude'].mean(), df_all['longitude'].mean()], zoom_start=20)
+
+# 增加tif图层，可以在下方显示图层
+img = cv2.imread("tif\\yabao_wgs.tif")
+# vscode中报错raster_layers，但是可以正常运行
+layers = folium.raster_layers.ImageOverlay(img,[[22.608424646,114.066964664],[22.616127950,114.074399748]])
+m_cluster.add_child(layers)
+
 
 # 1. 生成聚类模型
 # from sklearn.cluster import KMeans
@@ -173,4 +184,6 @@ for name, group in grouped:
     colordif = color_map_cluster(group['altitude'].mean())
     folium.PolyLine(points, color=colordif, weight=1.5, opacity=0.6).add_to(m_cluster)
 
-m_cluster.save('traj_process\\traj_cluster.html')
+m_cluster.save('traj_cluster.html')
+
+print('save traj cluster map + tiff end')
